@@ -236,7 +236,7 @@ formulario.addEventListener('submit', function (event) {
     if (isValid) mensagem.focus();
     isValid = false;
   }
-
+  
   if (isValid) {
     const submitButton = formulario.querySelector('button[type="submit"]');
     submitButton.disabled = true;
